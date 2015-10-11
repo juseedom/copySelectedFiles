@@ -17,7 +17,6 @@ except AttributeError:
         def _translate(context, text, disambig):
             return QtGui.QApplication.translate(context, text, disambig)
 
-
 def _getFiles(path):
     for root, dirs, files in os.walk(path):
         for name in files:
